@@ -1,0 +1,213 @@
+/*IMPOSTAZIONI GENERALI*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  width: 31rem;
+  margin-left: 25%;
+  font-family: "Open Sans", sans-serif;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+}
+
+/*HEADER*/
+
+header {
+  background-color: black;
+  height: 7em;
+  font-family: "Open Sans", sans-serif;
+}
+
+#epicodelogo {
+  height: 3em;
+  margin-top: 25px;
+  margin-left: 35%;
+}
+/*NAVIGATION*/
+
+nav {
+  height: 22em;
+  background-image: url(/images/banner.jpg);
+  background-position: 250;
+  background-size: fit;
+  background-size: 30em 25em;
+  text-align: center;
+}
+
+#bannertitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 2em;
+  color: #25a2c3;
+}
+
+#bannerp {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  margin-top: 1em;
+}
+
+#bannerb {
+  background-color: #f04c2f;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  height: 3em;
+  width: 10em;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2em;
+}
+
+/*MAIN*/
+/*ARTICLE*/
+.round-image {
+  width: 350px;
+  height: 350px;
+  background-image: url(/images/notebook.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 200px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#notebooksidetext {
+  text-align: center;
+
+  margin-top: 6em;
+}
+
+#orangebox {
+  background-color: #e22d0e;
+  height: 25em;
+  color: #fff;
+  text-align: center;
+  margin-top: 5em;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  padding-top: 2em;
+}
+
+#orangeblock {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+  padding-top: 3em;
+  line-height: 1.65;
+}
+
+#orangep {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2em;
+  padding-top: 2em;
+}
+
+#section3 {
+  text-align: center;
+}
+
+#iltuopc {
+  width: 450px;
+  height: 350px;
+  background-image: url(/images/foto1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 1.5em;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+#pch4 {
+  padding-top: 25em;
+}
+
+#pcp {
+  line-height: 1.65;
+}
+
+#imparaora {
+  width: 450px;
+  height: 350px;
+  background-image: url(/images/foto2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 1.5em;
+  margin-right: 1em;
+  margin-top: 11em;
+}
+
+#imparah4 {
+  padding-top: 25em;
+}
+
+#lavorasubito {
+  width: 450px;
+  height: 350px;
+  background-image: url(/images/foto3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: 1.5em;
+  margin-right: 1em;
+  margin-top: 11em;
+}
+
+#lavorah4 {
+  padding-top: 25em;
+}
+/*FOOTER*/
+
+footer {
+  margin-top: 15em;
+  height: 25em;
+  background-color: #25a2c3;
+  color: #fff;
+  text-align: center;
+}
+
+hr {
+  width: 15em;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#footerp,
+#footerp2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  text-decoration: underline;
+}
+#footerp3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#footercopy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+a {
+  color: #fff;
+}
