@@ -29,8 +29,8 @@ header {
 
 #epicodelogo {
   height: 3em;
-  margin-top: 25px;
-  margin-left: 35%;
+  margin-top: 37px;
+  margin-left: 32%;
 }
 /*NAVIGATION*/
 
@@ -38,7 +38,7 @@ nav {
   height: 27em;
   background-image: url(/images/banner.jpg);
   background-size: cover;
-  background-size: 50em 50em;
+  background-size: 47em 28.5em;
   background-repeat: no-repeat;
   background-position: 50%;
   text-align: center;
