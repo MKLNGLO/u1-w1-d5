@@ -1,0 +1,78 @@
+/*IMPOSTAZIONI GENERALI*/
+
+/*HEADER*/
+header {
+  background-color: black;
+  height: 7em;
+  color: #fff;
+}
+
+#logo {
+  height: 4em;
+  margin-top: 1.5em;
+  margin-left: 3em;
+}
+/*NAVIGATION*/
+nav {
+  height: 30em;
+  border: 5px solid red;
+  text-align: center;
+}
+/*MAIN*/
+
+/*SECTION*/
+
+/*benefits*/
+#benefits {
+  height: 50em;
+  border: 5px solid red;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bsquare {
+  background: purple;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  padding-bottom: 30%;
+}
+
+.square {
+  background: purple;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  padding-bottom: 30%;
+}
+
+#orangebox {
+  background-color: #e22d0e;
+  height: 30em;
+  color: #fff;
+}
+
+/*requirements*/
+
+#requirements {
+  height: 40em;
+  border: 5px solid red;
+  text-align: center;
+}
+
+.square {
+  background: grey;
+  width: 30%;
+  margin: 1.66%;
+  float: left;
+  padding-bottom: 30%;
+}
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  height: 30em;
+  background-color: #25a2c3;
+  border: 5px solid red;
+}
