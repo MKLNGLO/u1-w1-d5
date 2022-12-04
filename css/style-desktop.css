@@ -14,6 +14,14 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  padding-top: 3em;
+}
+
 h4 {
   color: #25a2c3;
   font-size: 1.2em;
@@ -77,7 +85,7 @@ nav {
 }
 
 .square {
-  background: purple;
+  background: ;
   width: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -89,6 +97,7 @@ nav {
   background-color: #e22d0e;
   height: 30em;
   color: #fff;
+  text-align: center;
 }
 
 #notebook {
@@ -102,7 +111,39 @@ nav {
   margin-right: 5em;
 }
 
-/*requirements*/
+/*orangebox*/
+#orangeblock {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  font-size: 2rem;
+  padding-top: 1em;
+  line-height: 1.65;
+}
+
+#orangep {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  padding-top: 1em;
+  padding-bottom: 0.4em;
+  color: #fff;
+}
+
+#orangep2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.4em;
+  color: #fff;
+}
+
+/*Requirements*/
+.requirementsdiv {
+  box-sizing: border-box;
+  width: auto;
+  border: solid #dee1e3 1px;
+  padding: 0px;
+  text-align: center;
+}
 
 #requirements {
   height: 40em;
@@ -111,11 +152,39 @@ nav {
 }
 
 .square {
-  background: grey;
+  background: ;
   width: 30%;
   margin: 1.66%;
   float: left;
-  padding-bottom: 30%;
+  padding-bottom: 0%;
+}
+
+#pcimg {
+  width: auto;
+  height: 330px;
+  background-image: url(/images/foto1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#imparaora {
+  width: auto;
+  height: 330px;
+  background-image: url(/images/foto2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#lavorasubito {
+  width: auto;
+  height: 330px;
+  background-image: url(/images/foto3.jpg);
+  background-size: contain;
+  background-size: 28em;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 /*FOOTER*/
