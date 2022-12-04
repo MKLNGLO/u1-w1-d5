@@ -38,6 +38,7 @@ button {
   height: 3em;
   width: 9.5em;
   font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   margin-top: 3em;
   font-size: 1.2rem;
 }
@@ -170,6 +171,7 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
+  background-size: 28.3em auto;
 }
 
 #imparaora {
@@ -186,7 +188,7 @@ nav {
   height: 330px;
   background-image: url(/images/foto3.jpg);
   background-size: contain;
-  background-size: 28em;
+  background-size: 30.7em;
   background-repeat: no-repeat;
   text-align: center;
 }
