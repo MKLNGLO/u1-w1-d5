@@ -1,4 +1,5 @@
 /*IMPOSTAZIONI GENERALI*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap");
 p {
   font-size: 1.2em;
   font-family: "Open Sans", sans-serif;
@@ -11,7 +12,7 @@ h1 {
   font-weight: 700;
   color: #25a2c3;
   padding-top: 3em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 h2 {
@@ -37,7 +38,7 @@ button {
   height: 3em;
   width: 9.5em;
   font-family: "Montserrat", sans-serif;
-  margin-top: 2em;
+  margin-top: 3em;
   font-size: 1.2rem;
 }
 
@@ -59,8 +60,9 @@ nav {
   background-image: url("/images/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  border: 5px solid red;
+  border: ;
   text-align: center;
+  margin-bottom: 10em;
 }
 /*MAIN*/
 
@@ -68,15 +70,16 @@ nav {
 
 /*benefits*/
 #benefits {
-  height: 50em;
-  border: 5px solid red;
+  height: 35em;
+  border: ;
   text-align: center;
   margin: 0 auto;
+  margin-left: 4rem;
 }
 
 .bsquare {
-  border: 5px solid purple;
-  width: 35%;
+  border: ;
+  width: 45%;
   height: 10em;
   margin: 1.66%;
   float: left;
@@ -93,6 +96,19 @@ nav {
   padding-bottom: 30%;
 }
 
+#notebook {
+  width: 390px;
+  height: 390px;
+  background-image: url(/images/notebook.jpg);
+  background-size: cover;
+  display: block;
+  border-radius: 200px;
+  margin-left: 11.2em;
+  margin-right: 5em;
+}
+
+/*orangebox*/
+
 #orangebox {
   background-color: #e22d0e;
   height: 30em;
@@ -100,18 +116,6 @@ nav {
   text-align: center;
 }
 
-#notebook {
-  width: 350px;
-  height: 350px;
-  background-image: url(/images/notebook.jpg);
-  background-size: cover;
-  display: block;
-  border-radius: 200px;
-  margin-left: 2.2em;
-  margin-right: 5em;
-}
-
-/*orangebox*/
 #orangeblock {
   font-family: "Open Sans", sans-serif;
   font-style: italic;
@@ -147,7 +151,7 @@ nav {
 
 #requirements {
   height: 40em;
-  border: 5px solid red;
+  border: ;
   text-align: center;
 }
 
@@ -192,5 +196,44 @@ footer {
   text-align: center;
   height: 30em;
   background-color: #25a2c3;
-  border: 5px solid red;
+  border: ;
+}
+
+hr {
+  width: 25em;
+}
+
+#fh1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-top: 2.5em;
+  padding-bottom: 1em;
+  color: #fff;
+  text-align: left;
+  padding-left: 35rem;
+}
+
+.footerp {
+  text-align: left;
+  font-size: 1.5rem;
+  margin-bottom: 0.6em;
+  padding-left: 35rem;
+  text-decoration: underline;
+}
+
+#footercopy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: inline-block;
+  color: #fff;
+}
+
+a,
+i {
+  color: #fff;
+  font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
